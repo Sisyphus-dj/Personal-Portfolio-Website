@@ -1,34 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Simple jQuery SPA</title>
-</head>
-<style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
+<link rel="stylesheet" href="./css/about.css">
+<div class="about">
+  <h1>About</h1>
+  <p class="about-para">
+    Greetings! I am Ace Stephen Dave, a 20-year-old second-year student residing in Kihare, Manolo Fortich, Bukidnon.
+     I am pursuing my studies in IT at IT24B, and I am passionate about event-driven activities.
+     </p>
+     <br>
+     <br>
+     <br>
 
-    .floating-div {
-      position: fixed;
-      top: 30%;
-      right: 0;
-      transform: translateY(-50%);
-      background-color: #f2f2f2;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-right: 29%;
-      font-size: 50px;
-    }
-  </style>
-</head>
-<body>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<br>
 
-  <div class="floating-div">
-    <p>Welcome to my Portfolio</p>
-    <!-- Add your content here -->
-  </div>
-
-  <!-- Your main content goes here -->
-
-</body>
+<div  class="social">
+     <ul>
+       <li>
+        <a href="https://www.facebook.com/EzLawliet"id="fb" target="_blank">
+          <script>
+            document.getElementById('fb').addEventListener('click', function(event) {
+                event.preventDefault(); 
+                var url = this.href;
+                window.open(url, '_blank'); 
+            });
+        </script>
+           <i class="fab fa-facebook"></i>
+         </a>
+       </li>
+       <li>
+        <a href="https://github.com/nyannncatt"id="github" target="_blank">
+          <script>
+            document.getElementById('github').addEventListener('click', function(event) {
+                event.preventDefault(); 
+                var url = this.href;
+                window.open(url, '_blank'); 
+            });
+        </script>
+           <i class="fab fa-github"></i>
+         </a>
+         </li>
+       <li>
+        <a href="https://www.instagram.com/_aceeeey/"id="ig" target="_blank">
+          <script>
+            document.getElementById('ig').addEventListener('click', function(event) {
+                event.preventDefault(); 
+                var url = this.href;
+                window.open(url, '_blank'); 
+            });
+        </script>
+           <i class="fab fa-instagram"></i>
+         </a>
+         
+       </li>
+       <li>
+         <a href="https://open.spotify.com/user/21sakxr63jjv44feq2imyrl4i?si=775d26fd01494269"id="spotify" target="_blank">
+          <script>
+            document.getElementById('spotify').addEventListener('click', function(event) {
+                event.preventDefault(); 
+                var url = this.href;
+                window.open(url, '_blank'); 
+            });
+        </script>
+       
+           <i class="fab fa-spotify"></i>
+         </a> 
+       </li>
+     </ul>
+    </div>
